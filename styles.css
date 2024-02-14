@@ -1,0 +1,52 @@
+/* ======= General page formatting ======= */
+body {
+    /* Make page height = 100% of the veiw height */
+    height: 100vh;
+    /* Remove page margins */
+    margin: 0;
+}
+
+/* ======= Header ======= */
+header {
+    /* Header background color */
+    background-color: #1f2937;
+    /* Adjust padding */
+    padding: 0 100px;
+    /* Make the header flexbox */
+    display: flex;
+    /* Center items vertically */
+    align-items: center;
+}
+
+/* Header logo */
+.header-logo {
+    /* Logo font size and color */
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/* Navigation bar */
+.header-links {
+    /* navigation bar font size and color */
+    font-size: 18px;
+    color: #efe7eb;
+    /* Remove underline from links */
+    text-decoration: none;
+}
+
+header>ul {
+    /* Remove bullet points from navigation bar */
+    list-style-type: none;
+    /* Make the navigation bar flexbox */
+    display: flex;
+    /* Create space between links */
+    gap: 24px;
+    /* push the navigation bar to the right */
+    margin-left: auto;
+}
+
+/* ======= Hero Section ======= */
+/* ======= Random Information Section ======= */
+/* ======= Inspiration Quote / Testimonial Section ======= */
+/* ======= Call to Action - Sign up Section ======= */
+/* ======= Footer ======= */

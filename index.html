@@ -4,18 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
 </head>
 
 <body>
+    <!-- ======= Header ======= -->
     <header>
-        <p>Header Logo</p>
+        <!-- Logo text / image -->
+        <p class="header-logo">Header Logo</p>
+        <!-- Navigation bar -->
         <ul>
-            <li><a href="#info">header link one</a></li>
-            <li><a href="#quote">header link two</a></li>
-            <li><a href="#action">header link three</a></li>
+            <li><a class="header-links" href="#info">header link one</a></li>
+            <li><a class="header-links" href="#quote">header link two</a></li>
+            <li><a class="header-links" href="#action">header link three</a></li>
         </ul>
     </header>
+
+    <!-- ======= Hero Section ======= -->
+    <!-- Hero section is the first part of the page
+         It's where you put the most important information
+         Hero is the section where you make the firt impressions
+    -->
     <section id="hero">
         <h1>This website is awesome</h1>
         <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
@@ -25,6 +35,8 @@
             <p>This is a placeholder for an image</p>
         </div>
     </section>
+
+    <!-- ======= Random Information Section ======= -->
     <section id="info">
         <h2>Some random information.</h2>
         <div class="info-container">
@@ -44,6 +56,8 @@
             <p>this is some subtext under an illustration or image</p>
         </div>
     </section>
+
+    <!-- ======= Inspiration Quote / Testimonial Section ======= -->
     <section id="quote">
         <blockquote>
             This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe
@@ -51,11 +65,15 @@
         </blockquote>
         <p>- Thor, God of Thunder</p>
     </section>
+
+    <!-- ======= Call to Action - Sign up Section ======= -->
     <section id="action">
         <p>Call to action! It's time!</p>
         <p>Sign up for our product by clicking that button right over there!</p>
         <button>Sign up</button>
     </section>
+
+    <!-- ======= Footer ======= -->
     <footer>
         <p>Copyright &copy The Odin Project 2021</p>
     </footer>
