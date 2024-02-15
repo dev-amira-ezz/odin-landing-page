@@ -160,5 +160,28 @@ button {
 }
 
 /* ======= Inspiration Quote / Testimonial Section ======= */
+#quote {
+    /* Set background color */
+    background-color: #e5e7eb;
+    /* Format padding */
+    padding: 100px 250px 350px 250px;
+}
+
+blockquote {
+    /* Format font */
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+/* Format author text */
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: right;
+    padding-right: 50px;
+}
 /* ======= Call to Action - Sign up Section ======= */
 /* ======= Footer ======= */
