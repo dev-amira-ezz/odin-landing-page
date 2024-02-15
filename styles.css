@@ -11,7 +11,7 @@ header {
     /* Header background color */
     background-color: #1f2937;
     /* Adjust padding */
-    padding: 0 100px;
+    padding: 0 150px;
     /* Make the header flexbox */
     display: flex;
     /* Center items vertically */
@@ -20,21 +20,21 @@ header {
 
 /* Header logo */
 .header-logo {
-    /* Logo font size and color */
+    /* Logo font */
     font-size: 24px;
     color: #f9faf8;
 }
 
 /* Navigation bar */
 .header-links {
-    /* navigation bar font size and color */
+    /* navigation bar font */
     font-size: 18px;
     color: #efe7eb;
     /* Remove underline from links */
     text-decoration: none;
 }
 
-header>ul {
+.nav-bar {
     /* Remove bullet points from navigation bar */
     list-style-type: none;
     /* Make the navigation bar flexbox */
@@ -46,6 +46,71 @@ header>ul {
 }
 
 /* ======= Hero Section ======= */
+#hero {
+    /* Hero section background color */
+    background-color: #1f2937;
+    /* Set padding */
+    padding: 150px;
+     /* Make flexbox */
+     display: flex;
+}
+
+/* The left side of the hero section */
+.hero-text {
+    /* Make flexbox and change direction */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Format hero main text */
+.hero-main {
+    /* Format font */
+    font-size: 48px;
+    /* From MDN
+     * https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
+     * Font weight equivalent to extra-bold is 800
+     */
+    font-weight: 800;
+    color: #f9faf8;
+    /* Remove default margin */
+    margin: 0;
+}
+
+/* Format hero secondary text */
+.hero-secondary {
+    /* Format font */
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.placeholder {
+    /* Format placeholder */
+    color: #f9faf8;
+    background-color: #777;
+    /* set dimentions */
+    width:1000px;
+    height: 200px;
+    /* set margin */
+    margin-left: 100px;
+    /* Make flexbox */
+    display: flex;
+    /* Center text */
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    /* Set the width and padding */
+    width: 100px;
+    padding: 4px 8px;
+    /* Set colors */
+    color:#e5e7eb;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    /* Make the edges rounded */
+    border-radius: 8px;
+}
+
 /* ======= Random Information Section ======= */
 /* ======= Inspiration Quote / Testimonial Section ======= */
 /* ======= Call to Action - Sign up Section ======= */
