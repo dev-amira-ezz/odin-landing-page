@@ -84,7 +84,7 @@ header {
 }
 
 .placeholder {
-    /* Format placeholder */
+    /* Set colors */
     color: #f9faf8;
     background-color: #777;
     /* set dimentions */
@@ -99,6 +99,7 @@ header {
     align-items: center;
 }
 
+/* This formatting applies for both buttons on the page */
 button {
     /* Set the width and padding */
     width: 100px;
@@ -112,6 +113,16 @@ button {
 }
 
 /* ======= Random Information Section ======= */
+#info>h2 {
+    /* heading font */
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    /* Center text */
+    text-align: center;
+}
+
+
 /* ======= Inspiration Quote / Testimonial Section ======= */
 /* ======= Call to Action - Sign up Section ======= */
 /* ======= Footer ======= */
